@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    font-family: 'Poppins';
+    
+}
+
+header > div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+nav {
+    width: 600px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+}
+
+.logo{
+    height: 20px;
+    margin-right: 20px;
+}
+
+.search-container {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    background-color: #f3f3f3;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.search-container input {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    /*padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 14px;*/
+}
+
+.search-container button {
+    display: flex;
+    justify-content: space-between;
+    background-color: #e34234;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.auth-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.auth-buttons a {
+    margin-left: 10px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+
+#section1 {
+    height: 600px;
+    background-color: rgba(232,217,217,.3);
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+.plans{
+    background-color: #FB3B49;
+    box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+    color: white;
+}
+
+/*#section1 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 370px;
+}
+
+
+
+*/
+
+/*.triangle {
+    height: 100px;
+
+}
+
+h2{
+    background-color: rgba(255,204,53,.4);
+    transform: skew(9deg,0deg);
+    font-style: italic;
+}
+
+.container {
+    height: 600px;
+    margin: 0 auto;
+    padding: 75px 0;
+    height: 600px;
+    background-color: rgba(232,217,217,.3);
+}
+
+.link-btn{
+    color: #ED1C24;
+}
+.zero-configuration, .team-management, .familiar-features, .npm-audit{
+    height: 20px;
+}
+
+#section3 {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+#section3 .feature {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 370px;
+}
+
+.btn-create {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+}*/
