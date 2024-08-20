@@ -6,8 +6,7 @@ html, body {
   }
 
 body {
-    font-family: 'Poppins';
-    
+    font-family: 'Poppins'; 
 }
 
 header > div {
@@ -90,37 +89,65 @@ nav a {
     font-size: 14px;
 }
 
-
 #section1 {
-    height: 600px;
     background-color: rgba(232,217,217,.3);
-    display: flex;
+    display: flex; /* Utiliza flexbox */
+    flex-direction: column;
     justify-content: center;
-}
-
-h1{
-    font-size: 50px;
+    align-items: center;
+    height: 600px;
     text-align: center;
 }
 
-.plans{
-    background-color: #FB3B49;
-    box-shadow: 8px 8px 0 rgba(251,59,73,.2);
-    color: white;
+h1{
+    font-size: 60px;
+    font-weight:900;
+    justify-content: center;
+    margin: auto;
 }
-
-/*#section1 .container {
+.text{
     display: flex;
-    flex-direction: column;
     align-items: center;
-    width: 370px;
+    width: 440px;
+    margin:auto;
+    margin-top: 40px;
+    text-align: center;
 }
 
+.button-container {
+    display: flex; /*flexbox to aline the buttons*/
+    justify-content: center; /*center the buttons on the line*/
+    gap: 20px; /*space between the buttons*/
+    margin-top: 30px; /*margin on the top to separate the buttons from the text*/
+}
+button {
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
 
+.button-red {
+    background-color: #FB3B49;
+    color: #fff;
+    box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+}
 
-*/
-
-/*.triangle {
+.button-white {
+    background-color: white;
+    color: #000;
+    /*box-shadow: 8px 8px 0 rgba(0, 0, 0, .1);*/
+}
+#section2 {
+    display: flex; /* Utiliza flexbox */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    text-align: center;
+}
+.triangle {
     height: 100px;
 
 }
@@ -131,6 +158,7 @@ h2{
     font-style: italic;
 }
 
+/*
 .container {
     height: 600px;
     margin: 0 auto;
